@@ -1,0 +1,16 @@
+#logoPinguino{
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  padding: 5%;
+  margin: auto;
+  display: block;
+}
+.example-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.example-container > * {
+  width: 100%;
+}
