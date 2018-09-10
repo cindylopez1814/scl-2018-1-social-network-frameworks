@@ -2,15 +2,16 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { LogInComponent } from './log-in/log-in.component';
 
+// material angular io
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatFormFieldModule} from '@angular/material/form-field';
-import { PrincipalPageComponent } from './principal-page/principal-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PrincipalPageComponent
+    LogInComponent,
   ],
   imports: [
     BrowserModule,
@@ -20,4 +21,4 @@ import { PrincipalPageComponent } from './principal-page/principal-page.componen
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
